@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>CC9A3F5C-E9F5-46B8-BBB0-314EF592AB6C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Drag2RefreshDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>17E887C1-CFBB-4C62-B4DC-DCEE0610071F</key>
+		<string>ssh://gitlab.alibaba-inc.com/wxui/drag2refresh.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Demo/Drag2RefreshDemo/Drag2RefreshDemo.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>17E887C1-CFBB-4C62-B4DC-DCEE0610071F</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://gitlab.alibaba-inc.com/wxui/drag2refresh.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>17E887C1-CFBB-4C62-B4DC-DCEE0610071F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>17E887C1-CFBB-4C62-B4DC-DCEE0610071F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>drag2refresh</string>
+		</dict>
+	</array>
+</dict>
+</plist>

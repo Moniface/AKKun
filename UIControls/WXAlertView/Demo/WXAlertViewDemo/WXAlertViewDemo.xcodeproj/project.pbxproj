@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B30724561977A47500BE824E /* WXAlertViewDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = B30724551977A47500BE824E /* WXAlertViewDemo.m */; };
+		B31C6EF71977AFE5000068EF /* dotted_line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B31C6EF41977AFE5000068EF /* dotted_line@2x.png */; };
+		B31C6EF81977AFE5000068EF /* single_section_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B31C6EF51977AFE5000068EF /* single_section_normal@2x.png */; };
+		B31C6EF91977AFE5000068EF /* single_section_pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B31C6EF61977AFE5000068EF /* single_section_pressed@2x.png */; };
+		B36E42ED19775E22004B752C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B36E42EC19775E22004B752C /* Foundation.framework */; };
+		B36E42EF19775E22004B752C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B36E42EE19775E22004B752C /* CoreGraphics.framework */; };
+		B36E42F119775E22004B752C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B36E42F019775E22004B752C /* UIKit.framework */; };
+		B36E42F719775E22004B752C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B36E42F519775E22004B752C /* InfoPlist.strings */; };
+		B36E42F919775E22004B752C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B36E42F819775E22004B752C /* main.m */; };
+		B36E42FD19775E23004B752C /* TestBuildConfigAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B36E42FC19775E22004B752C /* TestBuildConfigAppDelegate.m */; };
+		B36E430019775E23004B752C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B36E42FE19775E23004B752C /* Main.storyboard */; };
+		B36E430519775E23004B752C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B36E430419775E23004B752C /* Images.xcassets */; };
+		B36E430C19775E23004B752C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B36E430B19775E23004B752C /* XCTest.framework */; };
+		B36E430D19775E23004B752C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B36E42EC19775E22004B752C /* Foundation.framework */; };
+		B36E430E19775E23004B752C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B36E42F019775E22004B752C /* UIKit.framework */; };
+		B36E431619775E23004B752C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B36E431419775E23004B752C /* InfoPlist.strings */; };
+		B36E431819775E23004B752C /* WXAlertViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B36E431719775E23004B752C /* WXAlertViewDemoTests.m */; };
+		B36E432819775E85004B752C /* WXAlertView+Radio.m in Sources */ = {isa = PBXBuildFile; fileRef = B36E432319775E85004B752C /* WXAlertView+Radio.m */; };
+		B36E432919775E85004B752C /* WXAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = B36E432519775E85004B752C /* WXAlertView.m */; };
+		B36E432A19775E85004B752C /* WXRadioItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = B36E432719775E85004B752C /* WXRadioItemView.m */; };
+		B36E432E19776561004B752C /* UIButton+Dagger.m in Sources */ = {isa = PBXBuildFile; fileRef = B36E432D19776561004B752C /* UIButton+Dagger.m */; };
+		B36E433419779C5F004B752C /* UIImage+Dagger.m in Sources */ = {isa = PBXBuildFile; fileRef = B36E433319779C5F004B752C /* UIImage+Dagger.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B36E430F19775E23004B752C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B36E42E119775E22004B752C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B36E42E819775E22004B752C;
+			remoteInfo = WXAlertViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B30724541977A47500BE824E /* WXAlertViewDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXAlertViewDemo.h; sourceTree = "<group>"; };
+		B30724551977A47500BE824E /* WXAlertViewDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXAlertViewDemo.m; sourceTree = "<group>"; };
+		B31C6EF41977AFE5000068EF /* dotted_line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dotted_line@2x.png"; sourceTree = "<group>"; };
+		B31C6EF51977AFE5000068EF /* single_section_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "single_section_normal@2x.png"; sourceTree = "<group>"; };
+		B31C6EF61977AFE5000068EF /* single_section_pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "single_section_pressed@2x.png"; sourceTree = "<group>"; };
+		B36E42E919775E22004B752C /* WXAlertViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WXAlertViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B36E42EC19775E22004B752C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B36E42EE19775E22004B752C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B36E42F019775E22004B752C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B36E42F419775E22004B752C /* WXAlertViewDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WXAlertViewDemo-Info.plist"; sourceTree = "<group>"; };
+		B36E42F619775E22004B752C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B36E42F819775E22004B752C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B36E42FA19775E22004B752C /* WXAlertViewDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WXAlertViewDemo-Prefix.pch"; sourceTree = "<group>"; };
+		B36E42FB19775E22004B752C /* TestBuildConfigAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestBuildConfigAppDelegate.h; sourceTree = "<group>"; };
+		B36E42FC19775E22004B752C /* TestBuildConfigAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestBuildConfigAppDelegate.m; sourceTree = "<group>"; };
+		B36E42FF19775E23004B752C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B36E430419775E23004B752C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B36E430A19775E23004B752C /* WXAlertViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WXAlertViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B36E430B19775E23004B752C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B36E431319775E23004B752C /* WXAlertViewDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WXAlertViewDemoTests-Info.plist"; sourceTree = "<group>"; };
+		B36E431519775E23004B752C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B36E431719775E23004B752C /* WXAlertViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXAlertViewDemoTests.m; sourceTree = "<group>"; };
+		B36E432219775E85004B752C /* WXAlertView+Radio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WXAlertView+Radio.h"; sourceTree = "<group>"; };
+		B36E432319775E85004B752C /* WXAlertView+Radio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WXAlertView+Radio.m"; sourceTree = "<group>"; };
+		B36E432419775E85004B752C /* WXAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXAlertView.h; sourceTree = "<group>"; };
+		B36E432519775E85004B752C /* WXAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXAlertView.m; sourceTree = "<group>"; };
+		B36E432619775E85004B752C /* WXRadioItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXRadioItemView.h; sourceTree = "<group>"; };
+		B36E432719775E85004B752C /* WXRadioItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXRadioItemView.m; sourceTree = "<group>"; };
+		B36E432C19776561004B752C /* UIButton+Dagger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Dagger.h"; sourceTree = "<group>"; };
+		B36E432D19776561004B752C /* UIButton+Dagger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Dagger.m"; sourceTree = "<group>"; };
+		B36E433219779C5F004B752C /* UIImage+Dagger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Dagger.h"; sourceTree = "<group>"; };
+		B36E433319779C5F004B752C /* UIImage+Dagger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Dagger.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B36E42E619775E22004B752C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B36E42EF19775E22004B752C /* CoreGraphics.framework in Frameworks */,
+				B36E42F119775E22004B752C /* UIKit.framework in Frameworks */,
+				B36E42ED19775E22004B752C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B36E430719775E23004B752C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B36E430C19775E23004B752C /* XCTest.framework in Frameworks */,
+				B36E430E19775E23004B752C /* UIKit.framework in Frameworks */,
+				B36E430D19775E23004B752C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B31C6EF31977AFE5000068EF /* images */ = {
+			isa = PBXGroup;
+			children = (
+				B31C6EF41977AFE5000068EF /* dotted_line@2x.png */,
+				B31C6EF51977AFE5000068EF /* single_section_normal@2x.png */,
+				B31C6EF61977AFE5000068EF /* single_section_pressed@2x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		B36E42E019775E22004B752C = {
+			isa = PBXGroup;
+			children = (
+				B36E42F219775E22004B752C /* WXAlertViewDemo */,
+				B36E431119775E23004B752C /* WXAlertViewDemoTests */,
+				B36E42EB19775E22004B752C /* Frameworks */,
+				B36E42EA19775E22004B752C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B36E42EA19775E22004B752C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B36E42E919775E22004B752C /* WXAlertViewDemo.app */,
+				B36E430A19775E23004B752C /* WXAlertViewDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B36E42EB19775E22004B752C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B36E42EC19775E22004B752C /* Foundation.framework */,
+				B36E42EE19775E22004B752C /* CoreGraphics.framework */,
+				B36E42F019775E22004B752C /* UIKit.framework */,
+				B36E430B19775E23004B752C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B36E42F219775E22004B752C /* WXAlertViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B36E432B19776561004B752C /* Fundamental */,
+				B36E432119775E85004B752C /* WXAlertView */,
+				B36E42FB19775E22004B752C /* TestBuildConfigAppDelegate.h */,
+				B36E42FC19775E22004B752C /* TestBuildConfigAppDelegate.m */,
+				B36E42FE19775E23004B752C /* Main.storyboard */,
+				B36E430419775E23004B752C /* Images.xcassets */,
+				B36E42F319775E22004B752C /* Supporting Files */,
+				B30724541977A47500BE824E /* WXAlertViewDemo.h */,
+				B30724551977A47500BE824E /* WXAlertViewDemo.m */,
+			);
+			path = WXAlertViewDemo;
+			sourceTree = "<group>";
+		};
+		B36E42F319775E22004B752C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B36E42F419775E22004B752C /* WXAlertViewDemo-Info.plist */,
+				B36E42F519775E22004B752C /* InfoPlist.strings */,
+				B36E42F819775E22004B752C /* main.m */,
+				B36E42FA19775E22004B752C /* WXAlertViewDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B36E431119775E23004B752C /* WXAlertViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B36E431719775E23004B752C /* WXAlertViewDemoTests.m */,
+				B36E431219775E23004B752C /* Supporting Files */,
+			);
+			path = WXAlertViewDemoTests;
+			sourceTree = "<group>";
+		};
+		B36E431219775E23004B752C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B36E431319775E23004B752C /* WXAlertViewDemoTests-Info.plist */,
+				B36E431419775E23004B752C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B36E432119775E85004B752C /* WXAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				B31C6EF31977AFE5000068EF /* images */,
+				B36E432219775E85004B752C /* WXAlertView+Radio.h */,
+				B36E432319775E85004B752C /* WXAlertView+Radio.m */,
+				B36E432419775E85004B752C /* WXAlertView.h */,
+				B36E432519775E85004B752C /* WXAlertView.m */,
+				B36E432619775E85004B752C /* WXRadioItemView.h */,
+				B36E432719775E85004B752C /* WXRadioItemView.m */,
+			);
+			name = WXAlertView;
+			path = ../../../WXAlertView;
+			sourceTree = "<group>";
+		};
+		B36E432B19776561004B752C /* Fundamental */ = {
+			isa = PBXGroup;
+			children = (
+				B36E433219779C5F004B752C /* UIImage+Dagger.h */,
+				B36E433319779C5F004B752C /* UIImage+Dagger.m */,
+				B36E432C19776561004B752C /* UIButton+Dagger.h */,
+				B36E432D19776561004B752C /* UIButton+Dagger.m */,
+			);
+			name = Fundamental;
+			path = ../../../Fundamental;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B36E42E819775E22004B752C /* WXAlertViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B36E431B19775E23004B752C /* Build configuration list for PBXNativeTarget "WXAlertViewDemo" */;
+			buildPhases = (
+				B36E42E519775E22004B752C /* Sources */,
+				B36E42E619775E22004B752C /* Frameworks */,
+				B36E42E719775E22004B752C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WXAlertViewDemo;
+			productName = WXAlertViewDemo;
+			productReference = B36E42E919775E22004B752C /* WXAlertViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B36E430919775E23004B752C /* WXAlertViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B36E431E19775E23004B752C /* Build configuration list for PBXNativeTarget "WXAlertViewDemoTests" */;
+			buildPhases = (
+				B36E430619775E23004B752C /* Sources */,
+				B36E430719775E23004B752C /* Frameworks */,
+				B36E430819775E23004B752C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B36E431019775E23004B752C /* PBXTargetDependency */,
+			);
+			name = WXAlertViewDemoTests;
+			productName = WXAlertViewDemoTests;
+			productReference = B36E430A19775E23004B752C /* WXAlertViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B36E42E119775E22004B752C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TestBuildConfig;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Alibaba;
+				TargetAttributes = {
+					B36E430919775E23004B752C = {
+						TestTargetID = B36E42E819775E22004B752C;
+					};
+				};
+			};
+			buildConfigurationList = B36E42E419775E22004B752C /* Build configuration list for PBXProject "WXAlertViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B36E42E019775E22004B752C;
+			productRefGroup = B36E42EA19775E22004B752C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B36E42E819775E22004B752C /* WXAlertViewDemo */,
+				B36E430919775E23004B752C /* WXAlertViewDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B36E42E719775E22004B752C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B31C6EF81977AFE5000068EF /* single_section_normal@2x.png in Resources */,
+				B36E430519775E23004B752C /* Images.xcassets in Resources */,
+				B36E42F719775E22004B752C /* InfoPlist.strings in Resources */,
+				B31C6EF71977AFE5000068EF /* dotted_line@2x.png in Resources */,
+				B36E430019775E23004B752C /* Main.storyboard in Resources */,
+				B31C6EF91977AFE5000068EF /* single_section_pressed@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B36E430819775E23004B752C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B36E431619775E23004B752C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B36E42E519775E22004B752C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B36E42F919775E22004B752C /* main.m in Sources */,
+				B36E433419779C5F004B752C /* UIImage+Dagger.m in Sources */,
+				B36E432919775E85004B752C /* WXAlertView.m in Sources */,
+				B30724561977A47500BE824E /* WXAlertViewDemo.m in Sources */,
+				B36E432A19775E85004B752C /* WXRadioItemView.m in Sources */,
+				B36E432E19776561004B752C /* UIButton+Dagger.m in Sources */,
+				B36E42FD19775E23004B752C /* TestBuildConfigAppDelegate.m in Sources */,
+				B36E432819775E85004B752C /* WXAlertView+Radio.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B36E430619775E23004B752C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B36E431819775E23004B752C /* WXAlertViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B36E431019775E23004B752C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B36E42E819775E22004B752C /* WXAlertViewDemo */;
+			targetProxy = B36E430F19775E23004B752C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B36E42F519775E22004B752C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B36E42F619775E22004B752C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B36E42FE19775E23004B752C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B36E42FF19775E23004B752C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B36E431419775E23004B752C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B36E431519775E23004B752C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B36E431919775E23004B752C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B36E431A19775E23004B752C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B36E431C19775E23004B752C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WXAlertViewDemo/WXAlertViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "WXAlertViewDemo/WXAlertViewDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B36E431D19775E23004B752C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WXAlertViewDemo/WXAlertViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "WXAlertViewDemo/WXAlertViewDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B36E431F19775E23004B752C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WXAlertViewDemo.app/WXAlertViewDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WXAlertViewDemo/WXAlertViewDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WXAlertViewDemoTests/WXAlertViewDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B36E432019775E23004B752C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WXAlertViewDemo.app/WXAlertViewDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WXAlertViewDemo/WXAlertViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "WXAlertViewDemoTests/WXAlertViewDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B36E42E419775E22004B752C /* Build configuration list for PBXProject "WXAlertViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B36E431919775E23004B752C /* Debug */,
+				B36E431A19775E23004B752C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B36E431B19775E23004B752C /* Build configuration list for PBXNativeTarget "WXAlertViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B36E431C19775E23004B752C /* Debug */,
+				B36E431D19775E23004B752C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B36E431E19775E23004B752C /* Build configuration list for PBXNativeTarget "WXAlertViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B36E431F19775E23004B752C /* Debug */,
+				B36E432019775E23004B752C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B36E42E119775E22004B752C /* Project object */;
+}
