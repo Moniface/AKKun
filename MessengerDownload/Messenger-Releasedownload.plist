@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>assets</key>
+			<array>
+				<dict>
+					<key>kind</key>
+					<string>software-package</string>
+					<key>url</key>
+					<string>http://mtl.alibaba-inc.com/oss/mupp/7984/364703/363599/0668c5bddbb02a5779f4e46d66e92f30/Messenger-Release.ipa</string>
+				</dict>
+			</array>
+			<key>metadata</key>
+			<dict>
+				<key>bundle-identifier</key>
+				<string>com.taobao.wangxin.rc</string>
+				<key>bundle-version</key>
+				<string>3.6.0</string>
+				<key>kind</key>
+				<string>software</string>
+				<key>title</key>
+				<string>旺信</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
